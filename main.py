@@ -4,7 +4,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 from datetime import datetime
 
-from scrap_data import IndiaCovidCases
+from scrap_cases import IndiaCovidCases
+from scrap_deaths import IndiaCovidDeaths
 from models.NeuralNetModel import NeuralNetModel
 from models.PolynomialRegressionModel import PolynomialRegressionModel
 
