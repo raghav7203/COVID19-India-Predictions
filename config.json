@@ -1,7 +1,7 @@
 {
     "models": [
         {
-            "enabled": false,
+            "enabled": true,
             "model_name": "Cases",
             "model": {
                 "type": "neural_net",
@@ -9,7 +9,7 @@
                 "learning_rate": 0.0005,
                 "max_iter": 50000
             },
-            "datagrabber_class": "IndiaCasesDataGrabber",
+            "datagrabber_class": "IndiaCovidCases",
             "grab_data_from_server": true,
             "offline_dataset_date": "2020-04-20",
             "days_to_predict": 13
@@ -36,7 +36,7 @@
                 "type": "regression",
                 "polynomial_degree": 4
             },
-            "datagrabber_class": "IndiaCasesDataGrabber",
+            "datagrabber_class": "IndiaCovidCases",
             "grab_data_from_server": true,
             "offline_dataset_date": "2020-04-20",
             "days_to_predict": 10
@@ -49,7 +49,7 @@
                 "type": "regression",
                 "polynomial_degree": 2
             },
-            "datagrabber_class": "IndiaDeathsDataGrabber",
+            "datagrabber_class": "IndiaCovidCases",
             "grab_data_from_server": true,
             "offline_dataset_date": "0000-00-00",
             "days_to_predict": 10
