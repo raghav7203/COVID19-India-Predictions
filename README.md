@@ -23,7 +23,7 @@ Then, the file displays the models' predictions for cases and deaths due to COVI
 
 ## Own Dataset
 
-If you have that same json format of you data then you can simply replace it with the link.
+If you have that same json format of your data then you can simply replace it with the link.
 Else
 Create a new  class and replace it by IndiaCovidCases and implement the two methods in the class in the same format i.e  this method should fetch the data from a data source and store it into a file.
 
