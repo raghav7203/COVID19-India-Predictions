@@ -17,7 +17,7 @@ This project intends to predict the number of cases and deaths due to COVID19 in
 ## Working
 
 The main.py file uses the IndiaCovidCases/Deaths class to scrap the data from https://api.covid19india.org/data.json.
-The main.py file then trains the configured model.
+The main.py file then trains the configured model either scikit-learn's LinearRegression or the PolynomialRegression.
 Then, the file displays the models' predictions for cases and deaths due to COVID19 in India for desired number of days.
 
 
