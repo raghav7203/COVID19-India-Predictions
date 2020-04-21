@@ -30,9 +30,6 @@ If you have that same json format of you data then you can simply replace it wit
 Else
 Create a new  class and replace it by IndiaCovidCases and implement the two methods in the class in the same format i.e  this method should fetch the data from a data source and store it into a file.
 
-## Output
+## output
 
-![Terminal output](Figure_1.png)
-![Screenshot](Figure_2.png)
-![Screenshot](Figure_3.png)
-![Screenshot](Figure_4.png)
+![picture](Figure_1.png)
