@@ -32,4 +32,4 @@ Create a new  class and replace it by IndiaCovidCases and implement the two meth
 
 ## output
 
-![picture](Figure_1.png)
+![alternativetext](Figure_1.png)
