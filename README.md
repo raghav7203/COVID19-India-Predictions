@@ -7,9 +7,6 @@ This project intends to predict the number of cases and deaths due to COVID19 in
     - matplotlib
     - scikit-learn
     - pandas
-    - os
-    - csv
-    - json
     - requests
     - datetime
 ## Usage
